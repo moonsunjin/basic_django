@@ -1,58 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>index.html</title>
-        <link href="./practice.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="./add_two_numbers.js"></script>
-        <script type="text/javascript" src="./what_time_is_it.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    </head> 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<head>
+    <title>index.html</title>
+    <link href="./practice.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./add_two_numbers.js"></script>
+    <script type="text/javascript" src="./what_time_is_it.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
             <a class="navbar-brand" href="./index.html">DoIt!</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about_me.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./blog_list.html">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about_me.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog_list.html">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </nav>
-        <h1>INDEX!!!</h1> 
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <h1>INDEX!!!</h1>
 
-        <label for="inputA">a</label>
-        <input id="inputA" value=1 onkeyup="doSomething()">
+                <label for="inputA">a</label>
+                <input id="inputA" value=1 onkeyup="doSomething()">
 
-        <label for="inputB">b</label>
-        <input id="inputB" value=2 onkeyup="doSomething()">
-        
-        <p>
-            <span id="valueA">a</span> + <span id="valueB">b</span> = <span id="valueC">c</span>
-        </p>
-        <hr/>
-        
-        <button onclick="whatTimeIsIt()">time</button>
+                <label for="inputB">b</label>
+                <input id="inputB" value=2 onkeyup="doSomething()">
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    </body>
+                <p>
+                    <span id="valueA">a</span> + <span id="valueB">b</span> = <span id="valueC">c</span>
+                </p>
+                <hr />
+                <button onclick="whatTimeIsIt()">time</button>
+            </div>
+            <div class="col-3">
+                <img src="./images/up.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-sm bg-info">
+                <img src="./images/Ashe.jpg" class="img-fluid">
+            </div>
+            <div class="col-sm bg-secondary">
+                <img src="./images/Lucian.jpg" class="img-fluid">
+            </div>
+            <div class="col-sm bg-warning">
+                <img src="./images/Xayah.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
